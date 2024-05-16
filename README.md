@@ -1,2 +1,2 @@
 # visest
-mater student project
+mater student project for visibility estimation
