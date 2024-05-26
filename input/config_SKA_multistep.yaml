@@ -1,9 +1,10 @@
 num_bins: 20
 binning_method: 'equal_length'
 img_dpi: 500
-use_multiprocessing: true
-timesteps: [0, 1, 2]
+computation_type: 'cupy'
+timesteps: '0:1440'
 theta_maj: 0.0441370233211219
 theta_min: 0.0329175084774813
 num_times: 1440
 uv_range: [-6000, 6000]
+filter_baselines_enabled: false
