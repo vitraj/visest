@@ -664,7 +664,7 @@ if __name__ == "__main__":
     
     # Plot the results
     full_file_path_plot = os.path.join(os.path.dirname("output/"), filename_plot)
-    plot(bare_estimator, ell_mean, var_squared, file_path=full_file_path_plot, img_dpi=config['img_dpi'])
+    plot(bare_estimator_avg, ell_mean_avg, var_squared_avg, file_path=full_file_path_plot, img_dpi=config['img_dpi'])
     
     # Save the arrays as a numpy file
     full_file_path_npz = os.path.join(os.path.dirname("output/"), filename_npz)
