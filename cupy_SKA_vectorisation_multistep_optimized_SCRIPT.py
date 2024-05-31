@@ -278,7 +278,7 @@ def compute_vals_cupy(blcoord, vis, sigma_0, V_0, bin_number):
     return bare_estimator, ell_mean, np.abs(var_squared)
 
 
-def bare_estimator_func_cupy(baselines, visibilities, tehta_fwhm, num_bins, bin_type):
+def bare_estimator_func_cupy(baselines, visibilities, theta_fwhm, num_bins, bin_type):
     theta_0 = 0.6 * theta_fwhm
     V_0 = np.pi * theta_0**2 / 2
     sigma_0 = 0.76 / theta_fwhm
